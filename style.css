@@ -1,5 +1,4 @@
 /* Fonts */
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -36,7 +35,6 @@
 }
 
 /* Main Styles */
-
 body {
   background-color: #155B9D;
   font-family: Lato, Roboto, sans-serif;
@@ -46,7 +44,7 @@ body {
 
 .container {
   max-width: 90%;
-  margin: 0 auto;
+  margin: 40px auto 0;
 }
 
 h1.gigantic {
@@ -86,6 +84,13 @@ h2.gigantic {
   margin-left: 0px;
 }
 
-.cta {
-  display: none;
+/* Media queries */
+@media screen and (max-width: 760px) {
+  h1.gigantic {
+    font-size: 3.5em;
+  }
+
+  h2.gigantic {
+    font-size: 3.5em;
+  }
 }
