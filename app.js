@@ -65,8 +65,8 @@ var birthday = Date.parse(birthdayRaw);
 // If it's the birthday, don't show countdown, else show it
 if (now.getDate() == 1 && now.getMonth() + 1 == 5) {
   // BIRTHDAY! :D
-  var ans = document.getElementsById("ans");
-  ans.innerHTML = "Yes! It's his birthday! Go wish him!";
+  var ans = document.getElementById("ans");
+  ans.innerHTML = "Yes, it's his birthday! Go wish him!!!";
 
   // Hide countdown
   document.getElementById("countdown").style.display = 'none';
